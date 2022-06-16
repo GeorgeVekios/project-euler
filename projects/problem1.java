@@ -1,4 +1,4 @@
-public class project1 {
+public class problem1 {
     public static int multipleTotal(int factor1, int factor2, int limit){
         int sum = 0;
         int num = 0;
