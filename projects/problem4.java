@@ -8,7 +8,7 @@ public class problem4 {
         for(int i = 999; i>= 100; i--){
             //System.out.println("check first loop");
             for(int j = 999; j >= i; j--){
-                //`System.out.println("Check second loop");
+                //System.out.println("Check second loop");
                 palindromeCheck = i*j;
                 //System.out.println(palindromeCheck);
                 palindromeString = String.valueOf(palindromeCheck);
