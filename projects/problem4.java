@@ -17,12 +17,12 @@ public class problem4 {
                     ch = palindromeString.charAt(k);
                     reverseString = ch + reverseString;
                 }
-                System.out.println("Checking palindrome string " + palindromeString);
-                System.out.println("Checking reverse string " + reverseString);
+                //System.out.println("Checking palindrome string " + palindromeString);
+                //System.out.println("Checking reverse string " + reverseString);
                 if(reverseString.equals(palindromeString)) {
                     if(palindromeCheck > lastPalindrome)
                         lastPalindrome = palindromeCheck;
-                    System.out.println("if statement ran");
+                    //System.out.println("if statement ran");
                 }
                 reverseString = "";
             }
